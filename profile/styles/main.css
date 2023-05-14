@@ -1,0 +1,83 @@
+h2 {
+  margin-bottom: -10px;
+}
+
+.profile {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10px;
+}
+
+.name {
+  font-size: 30px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+.univ {
+  margin-left: 15px;
+  font-family: serif;
+}
+
+.major {
+  margin-top: -10px;
+  font-family: serif;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 130%;
+}
+
+/* #는 id에 지정 가능. 근데 거의 안 씀. */
+#special {
+  text-align: center;
+}
+
+.background {
+  background-color: #e0e0e0;
+  max-width: 500px;
+  margin: 0 auto 0 auto;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 3px black;
+}
+
+.container {
+  width: 800px;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.left-menu {
+  width: 20%;
+  height: 400px;
+  background-color: cornflowerblue;
+  /* float: left; */
+  display: inline-block;
+  vertical-align: top;
+}
+
+.right-content {
+  width: 80%;
+  height: 400px;
+  background-color: coral;
+  /* float: left; */
+  display: inline-block;
+  font-size: 15px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+  /* clear: both; */
+}

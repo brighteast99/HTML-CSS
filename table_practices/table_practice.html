@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link href="styles/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <table>
+        <!-- 제목 행 -->
+        <thead>
+          <tr>
+            <th>
+              <p>asdf</p>
+              <p>asdf</p>
+            </th>
+            <td style="vertical-align: top">2222</td>
+            <td>3333</td>
+          </tr>
+        </thead>
+
+        <!-- 내용 행 -->
+        <tbody>
+          <tr>
+            <th>1</th>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- div에서 display 스타일로도 가능 -->
+    <div style="display: table">
+      <div style="display: table-row">
+        <div style="display: table-cell">ㅇㅇ1</div>
+        <div style="display: table-cell">ㅇㅇ2</div>
+        <div style="display: table-cell">ㅇㅇ3</div>
+      </div>
+      <div style="display: table-row">
+        <div style="display: table-cell">ㅇㅇ1</div>
+        <div style="display: table-cell">ㅇㅇ2</div>
+        <div style="display: table-cell">ㅇㅇ3</div>
+      </div>
+    </div>
+
+    <!-- vertical align 활용 -->
+    <!-- 크기가 다른 inline/inline-block 요소간 세로정렬에 사용 -->
+    <p style="font-size: 30px">
+      TEXT<span style="font-size: 20px; vertical-align: super">으</span>
+      <span style="font-size: 20px; vertical-align: text-top">으</span>
+      <span style="font-size: 20px; vertical-align: baseline">으</span>
+      <span style="font-size: 20px; vertical-align: text-bottom">으</span>
+      <span style="font-size: 20px; vertical-align: sub">으</span>
+
+      <!-- top, middle, bottom은 table에서 사용. super, sub이랑 같은 위치. -->
+      <span style="font-size: 20px; vertical-align: top">으</span>
+      <span style="font-size: 20px; vertical-align: middle">으</span>
+      <span style="font-size: 20px; vertical-align: bottom">으</span>
+    </p>
+  </body>
+</html>

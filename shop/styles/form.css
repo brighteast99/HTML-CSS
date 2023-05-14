@@ -1,0 +1,98 @@
+body,
+h1,
+p {
+  margin: 0;
+}
+
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+textarea {
+  resize: none;
+  padding: 10px 15px 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input {
+  padding: 10px 15px 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+}
+
+label {
+  font-size: 80%;
+}
+
+.orange-button {
+  padding: 5px 30px 5px 30px;
+  background-color: orange;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  color: white;
+  transition: all 0.2s;
+}
+
+.orange-button:hover {
+  background-color: rgb(255, 203, 107);
+  transition: 0.1s;
+}
+
+.orange-button:active {
+  background-color: rgb(230, 130, 0);
+  transition: 0.1s;
+}
+
+.form-background {
+  background-color: #303030;
+  padding: 100px;
+}
+
+.form-card {
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.form-input {
+  margin-bottom: 20px;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+}
+
+.w-50 {
+  width: 50%;
+  padding: 0px 10px 0px 10px;
+  float: left;
+}
+
+.input-name {
+  font-size: 125%;
+  margin-bottom: 5px;
+}
+
+.input-message {
+  width: 100%;
+}
