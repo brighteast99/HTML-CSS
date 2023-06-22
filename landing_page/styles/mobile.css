@@ -1,0 +1,59 @@
+@media screen and (max-width: 768px) {
+  /* Banner */
+  .main-banner {
+    height: 130dvw;
+    max-height: 80dvh;
+  }
+  .main-banner-container {
+    padding: 0;
+  }
+  .main-banner-title {
+    max-width: 80dvw;
+    margin: auto;
+    text-align: center;
+    padding: 5dvh;
+  }
+  .main-banner-title h1 {
+    font-size: 6dvw;
+  }
+  .main-banner-title p {
+    font-size: 3dvw;
+    max-width: none;
+  }
+  .main-banner-title button {
+    font-size: 2.3dvw;
+  }
+  .main-banner-img {
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 60%;
+    max-width: 80%;
+  }
+
+  /* Intro */
+  .main-intro div {
+    max-width: 80dvw;
+  }
+  .main-intro div h2 {
+    font-size: 20px;
+  }
+
+  /* Features */
+  .main-features-item {
+    width: 100%;
+  }
+  .main-features-item i {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    padding-top: 37.5px;
+    font-size: 75px;
+  }
+
+  /* Portfolio */
+  .main-portfolio-item {
+    width: 100%;
+    height: 50dvw;
+  }
+}
