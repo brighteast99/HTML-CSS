@@ -1,0 +1,39 @@
+body {
+  background-color: #f7f9fc;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+p {
+  margin: 0;
+}
+
+.nav-tabs {
+  position: relative;
+  border-bottom: 0.125rem lightgray solid;
+}
+
+.nav .nav-item .nav-tab.active {
+  color: #6fbaf8;
+}
+
+.text-xlarge {
+  font-size: 1.8em;
+}
+
+.text-large {
+  font-size: 1.2em;
+}
+
+.text-thin {
+  font-weight: 200;
+}
+
+.colored {
+  color: #6fbaf8 !important;
+}
+
+.btn-colored {
+  background-color: #6fbaf8 !important;
+  color: #ffffff !important;
+}
