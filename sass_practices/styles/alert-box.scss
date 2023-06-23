@@ -1,0 +1,25 @@
+@mixin alert-color($color) {
+  display: flex;
+  padding: 0 1em 0 1em;
+  border-radius: 0.25em;
+  border: 1px lighten($color, 60%) solid;
+  background-color: $color;
+  color: darken($color, 60%);
+
+  p:nth-child(1) {
+    font-weight: 600;
+    padding-right: 0.5em;
+  }
+}
+
+.custom-alert-success {
+  @include alert-color(#bfffbf);
+}
+
+.custom-alert-info {
+  @include alert-color(#dbe9ff);
+}
+
+.custom-alert-warning {
+  @include alert-color(#fff3bf);
+}

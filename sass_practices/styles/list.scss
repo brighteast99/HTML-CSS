@@ -1,0 +1,24 @@
+.custom-list {
+  border: 1px lightgray solid;
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    padding: 1em;
+    font-size: 1.3em;
+    transition: background-color 0.1s;
+  }
+  li:not(:nth-last-child(1)) {
+    border-bottom: 1px lightgray solid;
+  }
+  li:hover {
+    background-color: lightgray;
+  }
+  li.active {
+    background-color: rgb(0, 119, 255);
+    color: white;
+  }
+  li.active:hover {
+    background-color: rgb(60, 149, 252);
+  }
+}

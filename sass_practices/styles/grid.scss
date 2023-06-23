@@ -1,0 +1,20 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  @mixin col($cols) {
+    padding: 0 1em 0 1em;
+    box-sizing: border-box;
+    min-width: unset;
+    background-color: rgb(250, 215, 250);
+    border: plum 1px solid;
+    width: calc(100% * $cols / 12);
+  }
+
+  @for $i from 1 through 12 {
+    .col-#{$i} {
+      @include col($i);
+    }
+  }
+}

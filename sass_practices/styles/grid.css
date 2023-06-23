@@ -1,0 +1,101 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.row .col-1 {
+  padding: 0 1em 0 1em;
+  box-sizing: border-box;
+  min-width: unset;
+  background-color: rgb(250, 215, 250);
+  border: plum 1px solid;
+  width: 8.3333333333%;
+}
+.row .col-2 {
+  padding: 0 1em 0 1em;
+  box-sizing: border-box;
+  min-width: unset;
+  background-color: rgb(250, 215, 250);
+  border: plum 1px solid;
+  width: 16.6666666667%;
+}
+.row .col-3 {
+  padding: 0 1em 0 1em;
+  box-sizing: border-box;
+  min-width: unset;
+  background-color: rgb(250, 215, 250);
+  border: plum 1px solid;
+  width: 25%;
+}
+.row .col-4 {
+  padding: 0 1em 0 1em;
+  box-sizing: border-box;
+  min-width: unset;
+  background-color: rgb(250, 215, 250);
+  border: plum 1px solid;
+  width: 33.3333333333%;
+}
+.row .col-5 {
+  padding: 0 1em 0 1em;
+  box-sizing: border-box;
+  min-width: unset;
+  background-color: rgb(250, 215, 250);
+  border: plum 1px solid;
+  width: 41.6666666667%;
+}
+.row .col-6 {
+  padding: 0 1em 0 1em;
+  box-sizing: border-box;
+  min-width: unset;
+  background-color: rgb(250, 215, 250);
+  border: plum 1px solid;
+  width: 50%;
+}
+.row .col-7 {
+  padding: 0 1em 0 1em;
+  box-sizing: border-box;
+  min-width: unset;
+  background-color: rgb(250, 215, 250);
+  border: plum 1px solid;
+  width: 58.3333333333%;
+}
+.row .col-8 {
+  padding: 0 1em 0 1em;
+  box-sizing: border-box;
+  min-width: unset;
+  background-color: rgb(250, 215, 250);
+  border: plum 1px solid;
+  width: 66.6666666667%;
+}
+.row .col-9 {
+  padding: 0 1em 0 1em;
+  box-sizing: border-box;
+  min-width: unset;
+  background-color: rgb(250, 215, 250);
+  border: plum 1px solid;
+  width: 75%;
+}
+.row .col-10 {
+  padding: 0 1em 0 1em;
+  box-sizing: border-box;
+  min-width: unset;
+  background-color: rgb(250, 215, 250);
+  border: plum 1px solid;
+  width: 83.3333333333%;
+}
+.row .col-11 {
+  padding: 0 1em 0 1em;
+  box-sizing: border-box;
+  min-width: unset;
+  background-color: rgb(250, 215, 250);
+  border: plum 1px solid;
+  width: 91.6666666667%;
+}
+.row .col-12 {
+  padding: 0 1em 0 1em;
+  box-sizing: border-box;
+  min-width: unset;
+  background-color: rgb(250, 215, 250);
+  border: plum 1px solid;
+  width: 100%;
+}/*# sourceMappingURL=grid.css.map */
