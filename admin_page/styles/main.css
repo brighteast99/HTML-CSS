@@ -1,0 +1,261 @@
+p {
+  margin: 0;
+}
+
+.spacer {
+  flex: 1 0;
+}
+
+.topnav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 72px;
+  padding: 1em;
+  padding-left: 66px;
+  align-items: center;
+  background-color: white;
+}
+.topnav button {
+  background-color: transparent;
+  border: 1px lightgrey solid;
+  border-radius: 5px;
+  padding: 0.25em 0.75em;
+  color: #a0a0a0;
+}
+
+.search-menu {
+  position: relative;
+  align-items: center;
+}
+.search-menu input {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px lightgrey solid;
+  padding-left: 0.75em;
+  transition: width 0.5s;
+}
+.search-menu input:focus {
+  width: 400px;
+}
+.search-menu input::-moz-placeholder {
+  font-weight: 200;
+}
+.search-menu input::placeholder {
+  font-weight: 200;
+}
+.search-menu button {
+  position: absolute;
+  right: 0;
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  color: white;
+  background-color: #101551;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+
+.info-area {
+  padding: 0.5em 1em;
+  align-items: center;
+  color: #a0a0a0;
+  gap: 2em;
+}
+.info-area i {
+  font-size: 1.2em;
+  position: relative;
+}
+.info-area .badge {
+  font-size: 0.5em;
+  position: absolute;
+  top: -1.25em;
+  right: -1.25em;
+  padding: 0.5em;
+  width: 20px;
+  background: #c62828;
+}
+
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100dvh;
+  width: 50px;
+  padding: 16px;
+  padding-top: 1.5em;
+  color: white;
+  background-color: #3949ab;
+  gap: 1.5em;
+  transition: width 0.5s;
+}
+.sidebar .item {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.sidebar p {
+  margin-left: 1em;
+  opacity: 0%;
+  width: 0px;
+  transform: translateX(-150px);
+  transition: all 0.5s;
+}
+
+.sidebar:hover {
+  width: 200px;
+}
+.sidebar:hover p {
+  opacity: 100%;
+  transform: translateX(0px);
+}
+
+.content {
+  padding-top: 72px;
+  padding-left: 50px;
+  width: 100%;
+  height: 100dvh;
+  background-color: #fafafa;
+}
+.content > div {
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  overflow: auto;
+}
+
+.overview {
+  justify-content: flex-start;
+  gap: 2em;
+}
+.overview .item-wrapper {
+  flex: 1 1;
+  height: 125px;
+  border: none;
+  background-color: white;
+  max-width: 400px;
+}
+
+.card-header {
+  background-color: #fcfcfc;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list .list-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 1em;
+  font-weight: 200;
+}
+.list .list-item .badge {
+  background-color: #42a5f5;
+  font-weight: 400;
+}
+.list .list-item:not(:nth-last-child(1)) {
+  border-bottom: 1px lightgrey solid;
+}
+
+.card-tag-yellow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: inherit;
+  box-shadow: -4px 0px #ffca28;
+  width: 100%;
+  height: 100%;
+  padding: 1em 1.5em;
+}
+.card-tag-yellow p.title {
+  color: #a0a0a0;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+}
+.card-tag-yellow p.value {
+  font-size: 1.3em;
+}
+.card-tag-yellow i {
+  color: #a0a0a0;
+}
+
+.card-tag-skyblue {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: inherit;
+  box-shadow: -4px 0px #80deea;
+  width: 100%;
+  height: 100%;
+  padding: 1em 1.5em;
+}
+.card-tag-skyblue p.title {
+  color: #a0a0a0;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+}
+.card-tag-skyblue p.value {
+  font-size: 1.3em;
+}
+.card-tag-skyblue i {
+  color: #a0a0a0;
+}
+
+.card-tag-green {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: inherit;
+  box-shadow: -4px 0px #00e676;
+  width: 100%;
+  height: 100%;
+  padding: 1em 1.5em;
+}
+.card-tag-green p.title {
+  color: #a0a0a0;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+}
+.card-tag-green p.value {
+  font-size: 1.3em;
+}
+.card-tag-green i {
+  color: #a0a0a0;
+}
+
+.card-tag-indigo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: inherit;
+  box-shadow: -4px 0px #3949ab;
+  width: 100%;
+  height: 100%;
+  padding: 1em 1.5em;
+}
+.card-tag-indigo p.title {
+  color: #a0a0a0;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+}
+.card-tag-indigo p.value {
+  font-size: 1.3em;
+}
+.card-tag-indigo i {
+  color: #a0a0a0;
+}
+
+@media screen and (max-width: 768px) {
+  .overview .item-wrapper {
+    max-width: unset;
+  }
+}/*# sourceMappingURL=main.css.map */
